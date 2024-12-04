@@ -23,39 +23,39 @@ A Python project for merging multiple images into a single PDF file. This tool i
 To use this project, follow these steps:
 
 1. **Clone the Repository**
-
-Clone this repository to your local machine:  
-
-    ```bash
-    git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
-    cd Merge-Images-to-PDF-python
-    ```
+    
+    Clone this repository to your local machine:  
+    
+        ```bash
+        git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
+        cd Merge-Images-to-PDF-python
+        ```
 
 2. **Create a Virtual Environment (Optional)**
 
-It is recommended to use a virtual environment for Python projects:
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate        # On macOS/Linux
-    venv\Scripts\activate           # On Windows
-    ```
+    It is recommended to use a virtual environment for Python projects:
+    
+        ```bash
+        python -m venv venv
+        source venv/bin/activate        # On macOS/Linux
+        venv\Scripts\activate           # On Windows
+        ```
 
 3. **Install Dependencies**
 
-Install the required Python libraries using pip:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
+    Install the required Python libraries using pip:
+    
+        ```bash
+        pip install -r requirements.txt
+        ```
 
 4. **Run Examples**
 
-Test the functionality by running the example script:
-
-    ```bash
-    python examples/example.py
-    ```
+    Test the functionality by running the example script:
+    
+        ```bash
+        python examples/example.py
+        ```
 
 
 ### Notes:
@@ -69,21 +69,21 @@ Test the functionality by running the example script:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
-```
+    ```bash
+    git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
+    ```
 
 2. Navigate to the project directory:
 
-```bash
-cd Merge-Images-to-PDF-python
-```
+    ```bash
+    cd Merge-Images-to-PDF-python
+    ```
 
 3. Run the example script:
 
-```bash
-python examples/example.py
-```
+    ```bash
+    python examples/example.py
+    ```
 
 ## Example
 
