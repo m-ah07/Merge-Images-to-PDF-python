@@ -26,36 +26,36 @@ To use this project, follow these steps:
     
     Clone this repository to your local machine:  
     
-        ```bash
+    ```bash
         git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
         cd Merge-Images-to-PDF-python
-        ```
+    ```
 
 2. **Create a Virtual Environment (Optional)**
 
     It is recommended to use a virtual environment for Python projects:
     
-        ```bash
+   ```bash
         python -m venv venv
         source venv/bin/activate        # On macOS/Linux
         venv\Scripts\activate           # On Windows
-        ```
+   ```
 
 3. **Install Dependencies**
 
     Install the required Python libraries using pip:
     
-        ```bash
+   ```bash
         pip install -r requirements.txt
-        ```
+   ```
 
 4. **Run Examples**
 
     Test the functionality by running the example script:
     
-        ```bash
+   ```bash
         python examples/example.py
-        ```
+   ```
 
 
 ### Notes:
