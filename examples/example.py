@@ -1,12 +1,19 @@
-from src.merge_images_to_pdf import merge_images_to_pdf
+import os
+from src.merge_images_to_pdf import MergeImagesToPdf
 
-# Example images to merge
-images = ["example1.jpg", "example2.png", "example3.jpeg"]
+# List of image paths to merge
+image_paths = [
+    "example1.jpg",  # Replace with the full path to the first image
+    "example2.png",  # Replace with the full path to the second image
+    "example3.jpeg"  # Replace with the full path to the third image
+]
 
-# Output PDF path
-output_pdf = "merged_output.pdf"
+# Output path for the resulting PDF file
+output_pdf_path = "output/merged_images.pdf" 
 
-# Merge images into a PDF
-merge_images_to_pdf(images, output_pdf)
+# Ensure the output directory exists, create it if it doesn't
+os.makedirs(os.path.dirname(output_pdf_path), exist_ok=True)
 
-print(f"PDF successfully created: {output_pdf}")
+# Create the merger object and merge the images into a PDF
+merger = MergeImagesToPdf(image_paths, output_pdf_path)
+merger.merge_images()
