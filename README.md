@@ -14,7 +14,7 @@ A Python project for merging multiple images into a single PDF file. This tool i
 - Python 3.8+
 - Install dependencies using:
 
-    ```bash
+    ```
     pip install -r requirements.txt
     ```
 
@@ -26,7 +26,7 @@ To use this project, follow these steps:
     
     Clone this repository to your local machine:  
     
-    ```bash
+    ```
     git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
     cd Merge-Images-to-PDF-python
     ```
@@ -35,7 +35,7 @@ To use this project, follow these steps:
 
     It is recommended to use a virtual environment for Python projects:
     
-   ```bash
+   ```
     python -m venv venv
     source venv/bin/activate        # On macOS/Linux
     venv\Scripts\activate           # On Windows
@@ -45,7 +45,7 @@ To use this project, follow these steps:
 
     Install the required Python libraries using pip:
     
-   ```bash
+   ```
     pip install -r requirements.txt
    ```
 
@@ -53,14 +53,14 @@ To use this project, follow these steps:
 
     Test the functionality by running the example script:
     
-   ```bash
+   ```
     python examples/example.py
    ```
 
 
 ### Notes:
 - Ensure the file `requirements.txt` contains the dependencies:
-    ```text
+    ```
     fpdf
     pillow
     ```
@@ -69,25 +69,25 @@ To use this project, follow these steps:
 
 1. Clone the repository:
 
-    ```bash
+    ```
     git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
     ```
 
 2. Navigate to the project directory:
 
-    ```bash
+    ```
     cd Merge-Images-to-PDF-python
     ```
 
 3. Run the example script:
 
-    ```bash
+    ```
     python examples/example.py
     ```
 
 ## Example
 
-```python
+```
 from src.merge_images_to_pdf import merge_images_to_pdf
 
 images = ["image1.jpg", "image2.png", "image3.jpeg"]
