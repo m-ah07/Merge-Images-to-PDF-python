@@ -58,12 +58,14 @@ To use this project, follow these steps:
    ```
 
 
-### Notes:
-- Ensure the file `requirements.txt` contains the dependencies:
-    ```bash
-    fpdf
-    pillow
-    ```
+>### Notes:
+> Ensure the file `requirements.txt` contains the dependencies:
+>    ```bash
+>    fpdf
+>    ```
+>    ```bash
+>    pillow
+>    ```
 
 ## Example
 
