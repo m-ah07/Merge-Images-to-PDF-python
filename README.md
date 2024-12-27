@@ -4,12 +4,12 @@ A Python project for merging multiple images into a single PDF file. This tool i
 
 ---
 
-## Features
+## 🚀 Features
 - Merge multiple images (JPEG, PNG, etc.) into a single PDF.
 - Supports basic image resizing to fit within the PDF pages.
 - Easy-to-use modular structure.
 
-## Requirements
+## ⚙️ Requirements
 
 - Python 3.8+
 - Install dependencies using:
@@ -18,7 +18,7 @@ A Python project for merging multiple images into a single PDF file. This tool i
     pip install -r requirements.txt
     ```
 
-## Installation
+## 🔧 Installation
 
 To use this project, follow these steps:
 
@@ -65,26 +65,6 @@ To use this project, follow these steps:
     pillow
     ```
 
-## Usage
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd Merge-Images-to-PDF-python
-    ```
-
-3. Run the example script:
-
-    ```bash
-    python examples/example.py
-    ```
-
 ## Example
 
 ```bash
@@ -97,16 +77,22 @@ merge_images_to_pdf(images, output_path)
 print(f"PDF saved at {output_path}")
 ```
 
-## Directory Structure
-
+## 📂 Directory Structure
+```plaintext
 Merge-Images-to-PDF-python/
-├── examples/                 # Folder containing usage examples
-│   └── example.py            # Example script
-├── src/                      # Core functionality folder
-│   └── merge_images_to_pdf.py # Main script for merging images into a PDF
-├── README.md                 # Documentation
-└── .gitignore                # Git ignore file
+├── examples/
+│   └── example.py
+├── src/
+│   └── merge_images_to_pdf.py
+├── LICENSE
+├── README.md
+└── .gitignore
+```
 
-## Contributing
+## 🤝 Contributing
 
 Feel free to fork this repository and submit pull requests to enhance functionality or add features.
+
+## 🌟 Show Your Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub. Your support means the world to us!
