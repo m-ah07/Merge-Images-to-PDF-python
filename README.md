@@ -27,7 +27,7 @@ To use this project, follow these steps:
     Clone this repository to your local machine:  
     
     ```bash
-    git clone https://github.com/marwan-ahmed-23/Merge-Images-to-PDF-python.git
+    git clone https://github.com/m-ah07/Merge-Images-to-PDF-python.git
     cd Merge-Images-to-PDF-python
     ```
 
